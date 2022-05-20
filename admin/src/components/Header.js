@@ -10,10 +10,10 @@ function Header() {
 					<span className="align-middle"> { __( 'Network Wide Custom Code', 'nwcc' ) } </span>
 				</h2>
 				<div className="relative flex rounded-md shadow-sm">
-						<a href="https://profiles.wordpress.org/navanathbhosale" title={ __( 'WordPress Profile', 'nwcc' ) } target="_blank" id="wordpress" className="cursor-pointer shadow-sm mr-1.5 px-1.5 py-1.5 text-wpcolor hover:text-gray-900 rounded-full hover:bg-gray-50 bg-gray-100 flex items-center justify-center focus:outline-none">
+						<a href="https://profiles.wordpress.org/navanathbhosale" title={ __( 'WordPress', 'nwcc' ) } target="_blank" id="wordpress" className="cursor-pointer shadow-sm mr-1.5 px-1.5 py-1.5 text-wpcolor hover:text-gray-900 rounded-full hover:bg-gray-50 bg-gray-100 flex items-center justify-center focus:outline-none">
 							{ Icons.wordpress }
 						</a>
-						<a href="https://github.com/imnavanath" title={ __( 'GitHub Profile', 'nwcc' ) } target="_blank" id="github" className="cursor-pointer shadow-sm mr-1.5 px-1.5 py-1.5 text-wpcolor hover:text-gray-900 rounded-full hover:bg-gray-50 bg-gray-100 flex items-center justify-center focus:outline-none">
+						<a href="https://github.com/imnavanath/network-wide-custom-code" title={ __( 'GitHub', 'nwcc' ) } target="_blank" id="github" className="cursor-pointer shadow-sm mr-1.5 px-1.5 py-1.5 text-wpcolor hover:text-gray-900 rounded-full hover:bg-gray-50 bg-gray-100 flex items-center justify-center focus:outline-none">
 							{ Icons.github }
 						</a>
 						<a href="https://www.linkedin.com/in/navanath-bhosale" title={ __( 'Connect via LinkedIn', 'nwcc' ) } target="_blank" id="linkedin" className="cursor-pointer shadow-sm mr-1.5 px-1.5 py-1.5 text-wpcolor hover:text-gray-900 rounded-full hover:bg-gray-50 bg-gray-100 flex items-center justify-center focus:outline-none">
