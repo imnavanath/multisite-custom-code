@@ -7,6 +7,10 @@
 
 namespace NWCC\Core\Traits;
 
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly.
+}
+
 /**
  * Trait Get_Instance.
  */

@@ -11,6 +11,7 @@ module.exports = function (grunt) {
 					'!node_modules/**',
 					'!build/**',
 					'!css/sourcemap/**',
+					'!admin/src/**',
 					'!.git/**',
 					'!bin/**',
 					'!.gitlab-ci.yml',
@@ -31,6 +32,10 @@ module.exports = function (grunt) {
 					'!composer.lock',
 					'!package-lock.json',
 					'!phpcs.xml.dist',
+					'!phpcs.xml',
+					'!postcss.config.js',
+					'!tailwind.config.js',
+					'!webpack.config.js',
 				],
 				dest: 'network-wide-custom-code/'
 			}
@@ -88,7 +93,7 @@ module.exports = function (grunt) {
 			},
 			target: {
 				files: {
-					src: ['*.php', '**/*.php', '!node_modules/**', '!php-tests/**', '!bin/**', '!asset/bsf-core/**']
+					src: ['*.php', '**/*.php', '!node_modules/**', '!php-tests/**', '!bin/**']
 				}
 			}
 		},

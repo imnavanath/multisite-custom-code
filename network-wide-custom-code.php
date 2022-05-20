@@ -13,6 +13,10 @@
  * @package           Network_Wide_Custom_Code
  */
 
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly.
+}
+
 /**
  * Set constants
  */

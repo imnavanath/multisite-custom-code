@@ -10,6 +10,10 @@ namespace NWCC\Core;
 
 use NWCC\Core\Traits\Get_Instance;
 
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly.
+}
+
 /**
  * Helper
  *

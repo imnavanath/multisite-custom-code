@@ -11,6 +11,10 @@ namespace NWCC\Admin;
 use NWCC\Core\Helper;
 use NWCC\Core\Traits\Get_Instance;
 
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly.
+}
+
 /**
  * Admin menu
  *
@@ -124,7 +128,7 @@ class Menu {
 
 			wp_enqueue_style( NWCC_SETTINGS, NWCC_URL . 'assets/build/admin.css', [], $version );
 
-			wp_enqueue_style( 'nwcc_admin_style', NWCC_URL . 'admin/admin-style.css', [], $version );
+			wp_enqueue_style( 'nwcc_admin_style', NWCC_URL . 'admin/custom.css', [], $version );
 		}
 	}
 

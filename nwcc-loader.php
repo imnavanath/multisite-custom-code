@@ -11,6 +11,10 @@ namespace NWCC;
 use NWCC\Admin\Menu;
 use NWCC\Core\Helper;
 
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly.
+}
+
 /**
  * NWCC_Loader
  *

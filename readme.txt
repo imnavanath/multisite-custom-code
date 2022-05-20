@@ -2,7 +2,7 @@
 Contributors: navanathbhosale
 Donate link: https://www.paypal.me/NavanathBhosale
 Tags: multisite, network, wpms, css, js, google analytics, tracking, custom code, network wide custom code
-Requires at least: 4.6
+Requires at least: 5.2
 Requires PHP: 5.6
 Tested up to: 5.9.3
 Stable tag: 1.0.0
