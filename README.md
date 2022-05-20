@@ -24,7 +24,7 @@ It has two simple options:
 
 1. Upload the plugin files to the `/wp-content/plugins` directory, or install the plugin through the WordPress plugins screen directly.
 2. Activate the plugin through the 'Plugins' screen in WordPress
-3. In the network admin, a new menu will be added - Custom Code which will take you to plugin's page.
+3. In the network admin, a new menu will be added - `Custom Code` which will take you to plugin's page.
 4. You can add your custom code there.
 
 ## Frequently Asked Questions ##
