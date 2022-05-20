@@ -1,0 +1,14 @@
+{
+  "name": "imnavanath/network-wide-custom-code",
+  "description": "This plugin is for WordPress Multisite setup. It allows to add custom CSS & JS code in the network admin which will be enqueued on all sites under the network. The custom code can be anything like Google analytics, Facebook Pixel or a simple CSS snippet.",
+  "require-dev": {
+    "squizlabs/php_codesniffer": "^3.5",
+    "dealerdirect/phpcodesniffer-composer-installer": "^0.7.1",
+    "phpcompatibility/php-compatibility": "^9.3",
+    "wp-coding-standards/wpcs": "^2.2"
+  },
+  "scripts": {
+    "format": "vendor/bin/phpcbf",
+    "lint": "vendor/bin/phpcs"
+  }
+}

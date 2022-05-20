@@ -1,0 +1,7 @@
+.wp-nwccform textarea {
+    font-family: "Courier 10 Pitch", Courier, monospace;
+}
+.tooltip-group {
+	flex: 1 1 auto;
+	align-items: end;
+}

@@ -1,0 +1,48 @@
+{
+	"name": "network-wide-custom-code",
+	"version": "1.0.0",
+	"description": "This plugin is for WordPress Multisite setup. It allows to add custom CSS & JS code in the network admin which will be enqueued on all sites under the network. The custom code can be anything like Google analytics, Facebook Pixel or a simple CSS snippet.",
+	"author": "Navanath Bhosale",
+	"license": "GPL-2.0-or-later",
+	"homepage": "https://github.com/imnavanath/network-wide-custom-code#readme",
+	"bugs": {
+		"url": "https://github.com/imnavanath/network-wide-custom-code/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/imnavanath/network-wide-custom-code.git"
+	},
+	"scripts": {
+		"build": "wp-scripts build",
+		"format": "wp-scripts format",
+		"lint:css": "wp-scripts lint-style",
+		"lint:js": "wp-scripts lint-js",
+		"packages-update": "wp-scripts packages-update",
+		"plugin-zip": "wp-scripts plugin-zip",
+		"start": "wp-scripts start"
+	},
+	"dependencies": {
+		"@headlessui/react": "^1.4.3",
+		"@heroicons/react": "^1.0.5",
+		"@tailwindcss/forms": "^0.4.0",
+		"@tailwindcss/typography": "^0.5.1",
+		"react": "^17.0.2",
+		"react-dom": "^17.0.2",
+		"react-redux": "^7.2.6",
+		"react-router-dom": "^5.2.0"
+	},
+	"devDependencies": {
+		"@wordpress/scripts": "^22.2.1",
+		"@wordpress/i18n": "^3.16.0",
+		"tailwindcss": "^3.0.16",
+		"@wordpress/api-fetch": "^3.20.0",
+		"grunt": "^1.4.1",
+		"grunt-cli": "^1.4.3",
+		"grunt-contrib-clean": "^2.0.0",
+		"grunt-contrib-compress": "^2.0.0",
+		"grunt-contrib-copy": "^1.0.0",
+		"grunt-release": "^0.14.0",
+		"grunt-wp-i18n": "^1.0.2",
+		"grunt-wp-readme-to-markdown": "^2.0.1"
+	}
+}
